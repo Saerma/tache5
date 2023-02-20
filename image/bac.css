@@ -1,0 +1,140 @@
+.menu {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  font-size: 20px;
+  flex-wrap: wrap;
+  padding: 30px;
+  word-spacing: 20%;
+  padding-right: 30%;
+  padding-left: 20%;
+}
+.rol {
+  display: flex;
+  justify-content: left;
+  padding-left: 80%;
+  font-size: 20%;
+  padding-bottom: 50px;
+  margin-top: -80px;
+}
+.pol img {
+  font-size: 20px;
+  width: 20px;
+  padding-left: 20px;
+}
+.ni img {
+  width: 20px;
+}
+h1 {
+  font-size: 15px;
+  margin-top: -2%;
+  padding-right: 2px;
+  background-color: orangered;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+.fil {
+  width: 100%;
+  height: 80vh;
+  margin-top: -3%;
+  background-image: url(./image/brack.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.jur img {
+  width: 50px;
+  height: 100px;
+  color: aliceblue;
+  padding-left: 40%;
+}
+.dodo {
+  text-align: center;
+  padding-top: 14%;
+  color: aliceblue;
+}
+hr {
+  width: 35px;
+  margin-top: -14%;
+  border: none;
+  background-color: blue;
+  border-top: 1px solid orangered;
+}
+
+.dodo img {
+  margin-top: -45%;
+  width: 50px;
+  padding-bottom: 15%;
+}
+.nav img {
+  padding-top: 35%;
+}
+button {
+  color: aliceblue;
+  background-color: black;
+  border: 1px solid aliceblue;
+}
+.mou img {
+  width: 80%;
+  padding-left: 0%;
+  padding-top: -20%;
+  margin-left: 100px;
+  height: 250px;
+}
+.mou {
+  border: 1px solid black;
+  width: 25%;
+  margin-left: 30%;
+  background-color: orangered;
+  margin-top: -2%;
+}
+.titi img {
+  width: 90%;
+  padding-right: 20%;
+  margin-top: -80%;
+  padding-top: 100%;
+  padding-left: 20%;
+}
+.titi {
+  border: 1px solid black;
+  width: 25%;
+  margin-left: 55%;
+  margin-top: -24%;
+  height: 260px;
+  background-color: rgb(202, 199, 194);
+  padding-top: 42px;
+}
+.mama {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  background-color: rgba(63, 63, 59, 0.507);
+  height: 20%;
+}
+fieldset {
+  width: 15%;
+  height: 90px;
+  margin-top: -20%;
+  margin-left: 440px;
+  padding-top: 80px;
+  border: 2px solid white;
+  font-size: 20px;
+  color: aliceblue;
+}
+.papa {
+  margin-left: 730px;
+  padding-left: 40px;
+  color: aliceblue;
+}
+.foul {
+  color: aliceblue;
+}
+.fatou {
+  padding-left: 20px;
+  margin-top: -2%;
+  color: aliceblue;
+}
+h3 {
+  text-align: center;
+  font-size: 50px;
+  margin-top: 20px;
+}
