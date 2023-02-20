@@ -1,0 +1,266 @@
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    padding: 3% 20%;
+}
+
+li {
+    list-style-type: none;
+    font-weight: 400;
+    font-size: 20px;
+}
+
+nav a {
+    text-decoration: none;
+}
+
+#container {
+    background-image: url("./image/Background.png");
+    height: 700px;
+
+}
+
+.mass {
+    padding-top: 10%;
+    display: flex;
+    justify-content: center;
+}
+
+.ma {
+    width: 364px;
+    height: 74px;
+    margin: 5% auto;
+
+}
+
+.ma h1 {
+    color: aliceblue;
+    background-color: rgb(138, 132, 132);
+    width: 364px;
+    padding: 5% 0%;
+    text-align: center;
+
+}
+
+.jol {
+    text-align: center;
+}
+
+.pro,
+.des,
+.mark {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.content {
+    margin-top: 5%;
+    padding-bottom: 2%;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 300px);
+    justify-content: center;
+    gap: 50px;
+}
+
+.text {
+    text-align: center;
+}
+
+.des,
+.mark {
+    justify-content: end;
+}
+
+/* .........Bakeli........ */
+.bake h1 {
+    text-align: center;
+    margin-top: 5%;
+}
+
+.cours {
+    margin: 0% 20%;
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.bak {
+    background-color: #C4C4C459;
+    padding-top: 6%;
+    padding-bottom: 10%;
+    margin-top: 4%;
+}
+
+/*.....logos.....*/
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.grid-item {
+    width: 100%;
+}
+
+/* .........Bakeli2........ */
+#content2 {
+    margin-bottom: 6%;
+}
+
+.bak2,
+.para {
+    text-align: center;
+}
+
+.bake2 {
+    margin: 8%;
+    margin-bottom: 3%;
+}
+
+.pra,
+.opp,
+.ins,
+.nea {
+    position: relative;
+}
+
+span {
+    position: absolute;
+    left: 90%;
+    bottom: 50%;
+}
+
+.pourcen p {
+    margin-bottom: -1px;
+}
+
+.pour1 {
+    position: relative;
+}
+
+.pour2 {
+    float: right;
+}
+
+.im {
+    width: 300px;
+}
+
+.pourcen {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+/* .........Personne........ */
+.pers {
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.per {
+    margin: 4% 0%;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 280px);
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+
+.persn {
+    background-color: #A5C0AD;
+    padding: 5% 0%;
+    margin-top: 12%;
+}
+
+.per img {
+    width: 280px;
+    height: 340px;
+}
+
+/* .........logo........ */
+.log,
+.lo,
+.lg {
+    margin: 3%;
+    text-align: center;
+}
+
+.logo {
+    padding: 5% 0%;
+    margin: 5%;
+    text-align: justify;
+}
+
+/* ................. */
+.foot-title {
+    text-align: center;
+}
+.faa {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 20%);
+    justify-content: center;
+    justify-items: center;
+    gap: 5px;
+}
+.contac{
+    margin-top: 5%;
+text-align: center;
+}
+.conta{
+    padding-top: 1%;
+    text-align: center;
+}
+.cont{
+    margin: 2%;
+    padding-top: 4%;
+    text-align: center;
+}
+footer{
+    background-color: #C4C4C459;
+    padding: 5% 0%;
+}
+
+
+
+
+
+@media screen and (max-width: 780px) {
+
+
+    ul {
+        padding: 2%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    #container {
+        height: 400px;
+    }
+
+    span {
+        position: absolute;
+        left: 82%;
+        bottom: 50%;
+    }
+
+    .faa {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+    .grid-container{
+        display: flex;
+        flex-direction: column;
+    }
+
+
+}
